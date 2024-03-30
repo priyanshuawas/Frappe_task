@@ -6,3 +6,5 @@
 
 #     total_sales = frappe.db.sql("SELECT SUM(amount) FROM `tabSales Order`")[0][0]
 #     return total_sales
+
+

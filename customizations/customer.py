@@ -8,3 +8,4 @@ def export_customers():
                         left join `tabAddress` addr
                         on addr.name = cus.customer_primary_address
               ''',as_list=1)
+              #added 
